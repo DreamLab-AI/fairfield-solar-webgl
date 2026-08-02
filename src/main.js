@@ -95,7 +95,11 @@ let siteModel;
 const selectable = [];
 const modelLoader = new GLTFLoader();
 modelLoader.setMeshoptDecoder(MeshoptDecoder);
-modelLoader.load(assetUrl('assets/fairfield-site.glb'), (gltf) => {
+function loadSiteModel() {
+  const loading = document.querySelector('#loading');
+  loading.classList.remove('done', 'failed');
+  loading.innerHTML = '<span></span><p>Loading georeferenced site model</p>';
+  modelLoader.load(assetUrl('assets/fairfield-site.glb'), (gltf) => {
   siteModel = gltf.scene;
   scene.add(siteModel);
   siteModel.traverse((object) => {
@@ -113,12 +117,20 @@ modelLoader.load(assetUrl('assets/fairfield-site.glb'), (gltf) => {
       selectable.push(child);
     });
   });
-  document.querySelector('#loading').classList.add('done');
-}, undefined, (error) => {
-  const loading = document.querySelector('#loading');
-  loading.innerHTML = `<strong>Scene unavailable</strong><p>Run <code>npm run export:scene</code> to create the WebGL asset.</p>`;
-  console.error(error);
-});
+    loading.classList.add('done');
+  }, (event) => {
+    if (!event.total) return;
+    const percentage = Math.min(100, Math.round(event.loaded / event.total * 100));
+    const message = loading.querySelector('p');
+    if (message) message.textContent = `Loading georeferenced site model · ${percentage}%`;
+  }, (error) => {
+    loading.classList.add('failed');
+    loading.innerHTML = '<strong>Scene could not be loaded</strong><p>The model request failed or this browser could not decode it.</p><button type="button" id="retry-model">Retry model</button>';
+    document.querySelector('#retry-model').addEventListener('click', loadSiteModel, { once: true });
+    console.error('Fairfield site model load failed:', error);
+  });
+}
+loadSiteModel();
 
 function resize() {
   const { clientWidth, clientHeight } = canvas;
