@@ -1,2557 +1,544 @@
 {
-  "schemaVersion": 1,
-  "generatedFrom": [
-    "fairfield-scene-v5.blend",
-    "scene-meta.json",
-    "shading-analysis-v3.json",
-    "energy-model-results-v3.json",
-    "sun-positions.json"
-  ],
-  "site": {
-    "name": "Fairfield House",
-    "place": "Eskdale Green, Cumbria",
-    "crs": "EPSG:27700",
-    "origin": {
-      "easting": 314083.66,
-      "northing": 500058.46,
-      "elevationAsl": 48
-    },
-    "location": {
-      "latitude": 54.388743,
-      "longitude": -3.324563
-    }
-  },
-  "design": {
-    "revision": "2026-07-21 v5",
-    "status": "planning simulation",
-    "panelCount": 20,
-    "panelModel": "JA Solar JAM72D40-605/MB",
-    "modulePowerW": 605,
-    "capacityKwp": 12.1,
-    "tiltDegrees": 25,
-    "azimuth": "true south",
-    "annualGenerationKwh": 10764,
-    "annualShadingLossPct": 2.3
-  },
-  "monthly": [
-    {
-      "month": 1,
-      "generationKwh": 195,
-      "gridImportKwh": 1782,
-      "gridExportKwh": 0,
-      "shadingLossPct": 7.94
-    },
-    {
-      "month": 2,
-      "generationKwh": 505,
-      "gridImportKwh": 1285,
-      "gridExportKwh": 0,
-      "shadingLossPct": 3.53
-    },
-    {
-      "month": 3,
-      "generationKwh": 886,
-      "gridImportKwh": 1004,
-      "gridExportKwh": 28,
-      "shadingLossPct": 2.35
-    },
-    {
-      "month": 4,
-      "generationKwh": 1635,
-      "gridImportKwh": 329,
-      "gridExportKwh": 229,
-      "shadingLossPct": 1.15
-    },
-    {
-      "month": 5,
-      "generationKwh": 1756,
-      "gridImportKwh": 272,
-      "gridExportKwh": 338,
-      "shadingLossPct": 1.05
-    },
-    {
-      "month": 6,
-      "generationKwh": 1441,
-      "gridImportKwh": 275,
-      "gridExportKwh": 193,
-      "shadingLossPct": 0.97
-    },
-    {
-      "month": 7,
-      "generationKwh": 1270,
-      "gridImportKwh": 428,
-      "gridExportKwh": 119,
-      "shadingLossPct": 1.03
-    },
-    {
-      "month": 8,
-      "generationKwh": 1178,
-      "gridImportKwh": 483,
-      "gridExportKwh": 86,
-      "shadingLossPct": 1.08
-    },
-    {
-      "month": 9,
-      "generationKwh": 924,
-      "gridImportKwh": 755,
-      "gridExportKwh": 25,
-      "shadingLossPct": 2.26
-    },
-    {
-      "month": 10,
-      "generationKwh": 530,
-      "gridImportKwh": 1315,
-      "gridExportKwh": 1,
-      "shadingLossPct": 3.5
-    },
-    {
-      "month": 11,
-      "generationKwh": 279,
-      "gridImportKwh": 1596,
-      "gridExportKwh": 0,
-      "shadingLossPct": 7.58
-    },
-    {
-      "month": 12,
-      "generationKwh": 165,
-      "gridImportKwh": 1819,
-      "gridExportKwh": 0,
-      "shadingLossPct": 13.77
-    }
-  ],
-  "panels": {
-    "panel-01": {
-      "shadingAnalysisId": "panel-01",
-      "annualShadingLossPct": 0.61,
-      "monthlyShadingLossPct": {
-        "1": 3.11,
-        "2": 0.51,
-        "3": 0.47,
-        "4": 0.16,
-        "5": 0.04,
-        "6": 0.07,
-        "7": 0.01,
-        "8": 0.37,
-        "9": 0.72,
-        "10": 0.5,
-        "11": 2.76,
-        "12": 7.29
-      }
-    },
-    "panel-02": {
-      "shadingAnalysisId": "panel-02",
-      "annualShadingLossPct": 1.03,
-      "monthlyShadingLossPct": {
-        "1": 3.11,
-        "2": 3.02,
-        "3": 0.87,
-        "4": 0.64,
-        "5": 0.09,
-        "6": 0.2,
-        "7": 0.36,
-        "8": 0.6,
-        "9": 0.59,
-        "10": 2.42,
-        "11": 2.76,
-        "12": 7
-      }
-    },
-    "panel-03": {
-      "shadingAnalysisId": "panel-03",
-      "annualShadingLossPct": 0.97,
-      "monthlyShadingLossPct": {
-        "1": 3.11,
-        "2": 1.78,
-        "3": 1.47,
-        "4": 0.82,
-        "5": 0.03,
-        "6": 0.09,
-        "7": 0.22,
-        "8": 0.91,
-        "9": 0.32,
-        "10": 2.01,
-        "11": 2.76,
-        "12": 6.64
-      }
-    },
-    "panel-04": {
-      "shadingAnalysisId": "panel-04",
-      "annualShadingLossPct": 9.17,
-      "monthlyShadingLossPct": {
-        "1": 16.4,
-        "2": 19.77,
-        "3": 12.23,
-        "4": 5.56,
-        "5": 6.04,
-        "6": 5.47,
-        "7": 6.1,
-        "8": 5.31,
-        "9": 11.55,
-        "10": 18.7,
-        "11": 13.4,
-        "12": 14.63
-      }
-    },
-    "panel-05": {
-      "shadingAnalysisId": "panel-05",
-      "annualShadingLossPct": 1.57,
-      "monthlyShadingLossPct": {
-        "1": 7.96,
-        "2": 1.87,
-        "3": 1.07,
-        "4": 0.82,
-        "5": 0.49,
-        "6": 0.56,
-        "7": 0.51,
-        "8": 0.7,
-        "9": 1,
-        "10": 1.47,
-        "11": 7.65,
-        "12": 12.52
-      }
-    },
-    "panel-06": {
-      "shadingAnalysisId": "panel-06",
-      "annualShadingLossPct": 0.94,
-      "monthlyShadingLossPct": {
-        "1": 4.62,
-        "2": 0.14,
-        "3": 0.87,
-        "4": 0.33,
-        "5": 0.57,
-        "6": 0.61,
-        "7": 0.49,
-        "8": 0.72,
-        "9": 0.73,
-        "10": 0.13,
-        "11": 3.85,
-        "12": 6.73
-      }
-    },
-    "panel-07": {
-      "shadingAnalysisId": "panel-07",
-      "annualShadingLossPct": 0.62,
-      "monthlyShadingLossPct": {
-        "1": 3.11,
-        "2": 0.33,
-        "3": 0.47,
-        "4": 0.11,
-        "5": 0.23,
-        "6": 0.33,
-        "7": 0.14,
-        "8": 0.08,
-        "9": 0.73,
-        "10": 0.86,
-        "11": 2.76,
-        "12": 5.71
-      }
-    },
-    "panel-08": {
-      "shadingAnalysisId": "panel-08",
-      "annualShadingLossPct": 0.76,
-      "monthlyShadingLossPct": {
-        "1": 3.11,
-        "2": 2.09,
-        "3": 0.47,
-        "4": 0.05,
-        "5": 0.18,
-        "6": 0.16,
-        "7": 0.04,
-        "8": 0.06,
-        "9": 0.32,
-        "10": 3.08,
-        "11": 2.76,
-        "12": 5.71
-      }
-    },
-    "panel-09": {
-      "shadingAnalysisId": "panel-09",
-      "annualShadingLossPct": 0.84,
-      "monthlyShadingLossPct": {
-        "1": 3.11,
-        "2": 0.27,
-        "3": 1.52,
-        "4": 0.58,
-        "5": 0.44,
-        "6": 0.28,
-        "7": 0.44,
-        "8": 0.29,
-        "9": 0.99,
-        "10": 0,
-        "11": 2.76,
-        "12": 6.64
-      }
-    },
-    "panel-10": {
-      "shadingAnalysisId": "panel-10",
-      "annualShadingLossPct": 2,
-      "monthlyShadingLossPct": {
-        "1": 3.11,
-        "2": 3.6,
-        "3": 1.57,
-        "4": 2.14,
-        "5": 1.44,
-        "6": 1.3,
-        "7": 1.07,
-        "8": 1.9,
-        "9": 1.96,
-        "10": 3.51,
-        "11": 2.76,
-        "12": 5.71
-      }
-    },
-    "panel-11": {
-      "shadingAnalysisId": "panel-11",
-      "annualShadingLossPct": 1.11,
-      "monthlyShadingLossPct": {
-        "1": 6.2,
-        "2": 0.81,
-        "3": 0.87,
-        "4": 1.38,
-        "5": 0.03,
-        "6": 0.14,
-        "7": 0.39,
-        "8": 0.63,
-        "9": 0.99,
-        "10": 0.75,
-        "11": 5.61,
-        "12": 6.73
-      }
-    },
-    "panel-12": {
-      "shadingAnalysisId": "panel-12",
-      "annualShadingLossPct": 6.79,
-      "monthlyShadingLossPct": {
-        "1": 33.23,
-        "2": 5.7,
-        "3": 2.38,
-        "4": 4.02,
-        "5": 5.08,
-        "6": 4.35,
-        "7": 4.55,
-        "8": 3.85,
-        "9": 3.27,
-        "10": 5.43,
-        "11": 31.26,
-        "12": 33.08
-      }
-    },
-    "panel-13": {
-      "shadingAnalysisId": "panel-13",
-      "annualShadingLossPct": 1.02,
-      "monthlyShadingLossPct": {
-        "1": 6.62,
-        "2": 1.07,
-        "3": 0.47,
-        "4": 0.08,
-        "5": 0.06,
-        "6": 0.11,
-        "7": 0.08,
-        "8": 0.09,
-        "9": 0.99,
-        "10": 1.34,
-        "11": 7.1,
-        "12": 10.3
-      }
-    },
-    "panel-14": {
-      "shadingAnalysisId": "panel-14",
-      "annualShadingLossPct": 1.94,
-      "monthlyShadingLossPct": {
-        "1": 10.49,
-        "2": 1.09,
-        "3": 0.47,
-        "4": 0.11,
-        "5": 0.09,
-        "6": 0.28,
-        "7": 0.26,
-        "8": 0.08,
-        "9": 0.99,
-        "10": 2.67,
-        "11": 11.05,
-        "12": 32.62
-      }
-    },
-    "panel-15": {
-      "shadingAnalysisId": "panel-15",
-      "annualShadingLossPct": 2.43,
-      "monthlyShadingLossPct": {
-        "1": 7.77,
-        "2": 2.69,
-        "3": 3.75,
-        "4": 1.7,
-        "5": 1.28,
-        "6": 1.3,
-        "7": 1.06,
-        "8": 1.56,
-        "9": 3.64,
-        "10": 2.25,
-        "11": 6.25,
-        "12": 7.65
-      }
-    },
-    "panel-19": {
-      "shadingAnalysisId": "panel-15.001",
-      "annualShadingLossPct": 2.19,
-      "monthlyShadingLossPct": {
-        "1": 10.8,
-        "2": 2.81,
-        "3": 2.01,
-        "4": 0.38,
-        "5": 0.71,
-        "6": 0.35,
-        "7": 0.51,
-        "8": 0.29,
-        "9": 2.36,
-        "10": 2.36,
-        "11": 10.07,
-        "12": 22.33
-      }
-    },
-    "panel-20": {
-      "shadingAnalysisId": "panel-15.002",
-      "annualShadingLossPct": 2.21,
-      "monthlyShadingLossPct": {
-        "1": 10.11,
-        "2": 0.81,
-        "3": 1.47,
-        "4": 0.11,
-        "5": 0.09,
-        "6": 0.2,
-        "7": 0.09,
-        "8": 0.04,
-        "9": 0.99,
-        "10": 0.75,
-        "11": 12.63,
-        "12": 45.19
-      }
-    },
-    "panel-16": {
-      "shadingAnalysisId": "panel-16",
-      "annualShadingLossPct": 4.55,
-      "monthlyShadingLossPct": {
-        "1": 5.59,
-        "2": 5.63,
-        "3": 6.24,
-        "4": 3.83,
-        "5": 3.53,
-        "6": 3.35,
-        "7": 3.91,
-        "8": 3.62,
-        "9": 5.09,
-        "10": 6.12,
-        "11": 6.01,
-        "12": 9.79
-      }
-    },
-    "panel-17": {
-      "shadingAnalysisId": "panel-17",
-      "annualShadingLossPct": 2.63,
-      "monthlyShadingLossPct": {
-        "1": 4.31,
-        "2": 7.25,
-        "3": 6.53,
-        "4": 0.03,
-        "5": 0.51,
-        "6": 0.14,
-        "7": 0.2,
-        "8": 0.02,
-        "9": 6.5,
-        "10": 7.07,
-        "11": 5.68,
-        "12": 9.12
-      }
-    },
-    "panel-18": {
-      "shadingAnalysisId": "panel-18",
-      "annualShadingLossPct": 2.72,
-      "monthlyShadingLossPct": {
-        "1": 12.85,
-        "2": 9.29,
-        "3": 1.73,
-        "4": 0.25,
-        "5": 0.09,
-        "6": 0.16,
-        "7": 0.08,
-        "8": 0.39,
-        "9": 1.57,
-        "10": 8.55,
-        "11": 11.76,
-        "12": 20.1
-      }
-    }
-  },
-  "sun": {
-    "lat": 54.388743,
-    "lon": -3.324563,
-    "days": [
-      {
-        "month": 1,
-        "n": 16,
-        "samples": [
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 8.5,
-            "alt": 0.5,
-            "az": 126.57
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 9,
-            "alt": 3.87,
-            "az": 132.77
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 9.5,
-            "alt": 6.9,
-            "az": 139.17
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 10,
-            "alt": 9.57,
-            "az": 145.77
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 10.5,
-            "alt": 11.81,
-            "az": 152.57
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 11,
-            "alt": 13.58,
-            "az": 159.57
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 11.5,
-            "alt": 14.86,
-            "az": 166.73
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 12,
-            "alt": 15.59,
-            "az": 174
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 12.5,
-            "alt": 15.77,
-            "az": 181.32
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 13,
-            "alt": 15.4,
-            "az": 188.63
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 13.5,
-            "alt": 14.48,
-            "az": 195.87
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 14,
-            "alt": 13.03,
-            "az": 202.98
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 14.5,
-            "alt": 11.09,
-            "az": 209.92
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 15,
-            "alt": 8.7,
-            "az": 216.65
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 15.5,
-            "alt": 5.9,
-            "az": 223.18
-          },
-          {
-            "month": 1,
-            "day": 21,
-            "hour_utc": 16,
-            "alt": 2.75,
-            "az": 229.51
-          }
-        ]
-      },
-      {
-        "month": 2,
-        "n": 19,
-        "samples": [
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 8,
-            "alt": 4.47,
-            "az": 115.05
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 8.5,
-            "alt": 8.32,
-            "az": 121.38
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 9,
-            "alt": 11.92,
-            "az": 127.92
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 9.5,
-            "alt": 15.21,
-            "az": 134.71
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 10,
-            "alt": 18.12,
-            "az": 141.78
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 10.5,
-            "alt": 20.61,
-            "az": 149.15
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 11,
-            "alt": 22.6,
-            "az": 156.78
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 11.5,
-            "alt": 24.05,
-            "az": 164.66
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 12,
-            "alt": 24.91,
-            "az": 172.71
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 12.5,
-            "alt": 25.16,
-            "az": 180.85
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 13,
-            "alt": 24.8,
-            "az": 188.98
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 13.5,
-            "alt": 23.82,
-            "az": 197
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 14,
-            "alt": 22.27,
-            "az": 204.84
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 14.5,
-            "alt": 20.19,
-            "az": 212.43
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 15,
-            "alt": 17.62,
-            "az": 219.75
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 15.5,
-            "alt": 14.63,
-            "az": 226.77
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 16,
-            "alt": 11.29,
-            "az": 233.52
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 16.5,
-            "alt": 7.64,
-            "az": 240.02
-          },
-          {
-            "month": 2,
-            "day": 21,
-            "hour_utc": 17,
-            "alt": 3.75,
-            "az": 246.32
-          }
-        ]
-      },
-      {
-        "month": 3,
-        "n": 24,
-        "samples": [
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 6.5,
-            "alt": 1.59,
-            "az": 91.77
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 7,
-            "alt": 5.95,
-            "az": 97.89
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 7.5,
-            "alt": 10.24,
-            "az": 104.11
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 8,
-            "alt": 14.42,
-            "az": 110.49
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 8.5,
-            "alt": 18.42,
-            "az": 117.11
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 9,
-            "alt": 22.18,
-            "az": 124.03
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 9.5,
-            "alt": 25.65,
-            "az": 131.31
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 10,
-            "alt": 28.74,
-            "az": 139
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 10.5,
-            "alt": 31.37,
-            "az": 147.11
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 11,
-            "alt": 33.47,
-            "az": 155.65
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 11.5,
-            "alt": 34.97,
-            "az": 164.54
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 12,
-            "alt": 35.8,
-            "az": 173.69
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 12.5,
-            "alt": 35.94,
-            "az": 182.95
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 13,
-            "alt": 35.37,
-            "az": 192.16
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 13.5,
-            "alt": 34.13,
-            "az": 201.16
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 14,
-            "alt": 32.25,
-            "az": 209.84
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 14.5,
-            "alt": 29.82,
-            "az": 218.13
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 15,
-            "alt": 26.9,
-            "az": 225.98
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 15.5,
-            "alt": 23.58,
-            "az": 233.42
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 16,
-            "alt": 19.92,
-            "az": 240.48
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 16.5,
-            "alt": 16.01,
-            "az": 247.21
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 17,
-            "alt": 11.9,
-            "az": 253.68
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 17.5,
-            "alt": 7.66,
-            "az": 259.96
-          },
-          {
-            "month": 3,
-            "day": 21,
-            "hour_utc": 18,
-            "alt": 3.33,
-            "az": 266.11
-          }
-        ]
-      },
-      {
-        "month": 4,
-        "n": 28,
-        "samples": [
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 5.5,
-            "alt": 3.62,
-            "az": 74.6
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 6,
-            "alt": 7.89,
-            "az": 80.61
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 6.5,
-            "alt": 12.24,
-            "az": 86.62
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 7,
-            "alt": 16.61,
-            "az": 92.71
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 7.5,
-            "alt": 20.96,
-            "az": 98.95
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 8,
-            "alt": 25.23,
-            "az": 105.44
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 8.5,
-            "alt": 29.37,
-            "az": 112.27
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 9,
-            "alt": 33.3,
-            "az": 119.53
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 9.5,
-            "alt": 36.95,
-            "az": 127.32
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 10,
-            "alt": 40.23,
-            "az": 135.73
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 10.5,
-            "alt": 43.03,
-            "az": 144.81
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 11,
-            "alt": 45.24,
-            "az": 154.57
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 11.5,
-            "alt": 46.76,
-            "az": 164.91
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 12,
-            "alt": 47.5,
-            "az": 175.65
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 12.5,
-            "alt": 47.43,
-            "az": 186.51
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 13,
-            "alt": 46.54,
-            "az": 197.2
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 13.5,
-            "alt": 44.89,
-            "az": 207.44
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 14,
-            "alt": 42.56,
-            "az": 217.08
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 14.5,
-            "alt": 39.67,
-            "az": 226.04
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 15,
-            "alt": 36.32,
-            "az": 234.33
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 15.5,
-            "alt": 32.62,
-            "az": 242.01
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 16,
-            "alt": 28.65,
-            "az": 249.19
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 16.5,
-            "alt": 24.49,
-            "az": 255.95
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 17,
-            "alt": 20.2,
-            "az": 262.39
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 17.5,
-            "alt": 15.86,
-            "az": 268.61
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 18,
-            "alt": 11.5,
-            "az": 274.68
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 18.5,
-            "alt": 7.18,
-            "az": 280.69
-          },
-          {
-            "month": 4,
-            "day": 21,
-            "hour_utc": 19,
-            "alt": 2.94,
-            "az": 286.71
-          }
-        ]
-      },
-      {
-        "month": 5,
-        "n": 32,
-        "samples": [
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 4.5,
-            "alt": 2.85,
-            "az": 58.42
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 5,
-            "alt": 6.69,
-            "az": 64.34
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 5.5,
-            "alt": 10.71,
-            "az": 70.18
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 6,
-            "alt": 14.89,
-            "az": 75.99
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 6.5,
-            "alt": 19.18,
-            "az": 81.83
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 7,
-            "alt": 23.53,
-            "az": 87.77
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 7.5,
-            "alt": 27.9,
-            "az": 93.9
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 8,
-            "alt": 32.23,
-            "az": 100.31
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 8.5,
-            "alt": 36.48,
-            "az": 107.12
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 9,
-            "alt": 40.56,
-            "az": 114.45
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 9.5,
-            "alt": 44.4,
-            "az": 122.45
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 10,
-            "alt": 47.9,
-            "az": 131.27
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 10.5,
-            "alt": 50.93,
-            "az": 141.05
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 11,
-            "alt": 53.35,
-            "az": 151.83
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 11.5,
-            "alt": 55.02,
-            "az": 163.53
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 12,
-            "alt": 55.8,
-            "az": 175.86
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 12.5,
-            "alt": 55.65,
-            "az": 188.37
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 13,
-            "alt": 54.56,
-            "az": 200.53
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 13.5,
-            "alt": 52.63,
-            "az": 211.95
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 14,
-            "alt": 49.99,
-            "az": 222.4
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 14.5,
-            "alt": 46.8,
-            "az": 231.85
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 15,
-            "alt": 43.18,
-            "az": 240.38
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 15.5,
-            "alt": 39.25,
-            "az": 248.15
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 16,
-            "alt": 35.1,
-            "az": 255.29
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 16.5,
-            "alt": 30.83,
-            "az": 261.95
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 17,
-            "alt": 26.48,
-            "az": 268.26
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 17.5,
-            "alt": 22.12,
-            "az": 274.32
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 18,
-            "alt": 17.8,
-            "az": 280.22
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 18.5,
-            "alt": 13.55,
-            "az": 286.04
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 19,
-            "alt": 9.42,
-            "az": 291.86
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 19.5,
-            "alt": 5.46,
-            "az": 297.72
-          },
-          {
-            "month": 5,
-            "day": 21,
-            "hour_utc": 20,
-            "alt": 1.71,
-            "az": 303.68
-          }
-        ]
-      },
-      {
-        "month": 6,
-        "n": 34,
-        "samples": [
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 4,
-            "alt": 1.51,
-            "az": 49.73
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 4.5,
-            "alt": 4.99,
-            "az": 55.68
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 5,
-            "alt": 8.71,
-            "az": 61.51
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 5.5,
-            "alt": 12.65,
-            "az": 67.25
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 6,
-            "alt": 16.75,
-            "az": 72.96
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 6.5,
-            "alt": 20.98,
-            "az": 78.69
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 7,
-            "alt": 25.3,
-            "az": 84.52
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 7.5,
-            "alt": 29.66,
-            "az": 90.52
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 8,
-            "alt": 34.02,
-            "az": 96.8
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 8.5,
-            "alt": 38.31,
-            "az": 103.46
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 9,
-            "alt": 42.49,
-            "az": 110.65
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 9.5,
-            "alt": 46.46,
-            "az": 118.53
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 10,
-            "alt": 50.12,
-            "az": 127.29
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 10.5,
-            "alt": 53.36,
-            "az": 137.11
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 11,
-            "alt": 56.01,
-            "az": 148.11
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 11.5,
-            "alt": 57.92,
-            "az": 160.25
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 12,
-            "alt": 58.92,
-            "az": 173.27
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 12.5,
-            "alt": 58.92,
-            "az": 186.62
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 13,
-            "alt": 57.93,
-            "az": 199.64
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 13.5,
-            "alt": 56.03,
-            "az": 211.8
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 14,
-            "alt": 53.38,
-            "az": 222.8
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 14.5,
-            "alt": 50.15,
-            "az": 232.63
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 15,
-            "alt": 46.49,
-            "az": 241.4
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 15.5,
-            "alt": 42.52,
-            "az": 249.29
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 16,
-            "alt": 38.35,
-            "az": 256.49
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 16.5,
-            "alt": 34.05,
-            "az": 263.15
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 17,
-            "alt": 29.7,
-            "az": 269.42
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 17.5,
-            "alt": 25.34,
-            "az": 275.43
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 18,
-            "alt": 21.02,
-            "az": 281.26
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 18.5,
-            "alt": 16.79,
-            "az": 286.99
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 19,
-            "alt": 12.68,
-            "az": 292.7
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 19.5,
-            "alt": 8.74,
-            "az": 298.44
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 20,
-            "alt": 5.02,
-            "az": 304.27
-          },
-          {
-            "month": 6,
-            "day": 21,
-            "hour_utc": 20.5,
-            "alt": 1.54,
-            "az": 310.22
-          }
-        ]
-      },
-      {
-        "month": 7,
-        "n": 32,
-        "samples": [
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 4.5,
-            "alt": 1.89,
-            "az": 56.3
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 5,
-            "alt": 5.64,
-            "az": 62.26
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 5.5,
-            "alt": 9.6,
-            "az": 68.11
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 6,
-            "alt": 13.72,
-            "az": 73.92
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 6.5,
-            "alt": 17.97,
-            "az": 79.74
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 7,
-            "alt": 22.29,
-            "az": 85.64
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 7.5,
-            "alt": 26.65,
-            "az": 91.7
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 8,
-            "alt": 31,
-            "az": 98.01
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 8.5,
-            "alt": 35.28,
-            "az": 104.67
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 9,
-            "alt": 39.42,
-            "az": 111.82
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 9.5,
-            "alt": 43.35,
-            "az": 119.59
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 10,
-            "alt": 46.97,
-            "az": 128.14
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 10.5,
-            "alt": 50.17,
-            "az": 137.61
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 11,
-            "alt": 52.8,
-            "az": 148.09
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 11.5,
-            "alt": 54.73,
-            "az": 159.54
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 12,
-            "alt": 55.81,
-            "az": 171.75
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 12.5,
-            "alt": 55.96,
-            "az": 184.29
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 13,
-            "alt": 55.16,
-            "az": 196.66
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 13.5,
-            "alt": 53.48,
-            "az": 208.37
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 14,
-            "alt": 51.05,
-            "az": 219.16
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 14.5,
-            "alt": 48.01,
-            "az": 228.94
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 15,
-            "alt": 44.5,
-            "az": 237.76
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 15.5,
-            "alt": 40.65,
-            "az": 245.76
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 16,
-            "alt": 36.56,
-            "az": 253.08
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 16.5,
-            "alt": 32.31,
-            "az": 259.88
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 17,
-            "alt": 27.98,
-            "az": 266.28
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 17.5,
-            "alt": 23.61,
-            "az": 272.4
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 18,
-            "alt": 19.26,
-            "az": 278.34
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 18.5,
-            "alt": 14.97,
-            "az": 284.17
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 19,
-            "alt": 10.8,
-            "az": 289.98
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 19.5,
-            "alt": 6.77,
-            "az": 295.81
-          },
-          {
-            "month": 7,
-            "day": 21,
-            "hour_utc": 20,
-            "alt": 2.94,
-            "az": 301.73
-          }
-        ]
-      },
-      {
-        "month": 8,
-        "n": 28,
-        "samples": [
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 5.5,
-            "alt": 3.19,
-            "az": 73.58
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 6,
-            "alt": 7.43,
-            "az": 79.59
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 6.5,
-            "alt": 11.75,
-            "az": 85.6
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 7,
-            "alt": 16.11,
-            "az": 91.68
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 7.5,
-            "alt": 20.46,
-            "az": 97.91
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 8,
-            "alt": 24.74,
-            "az": 104.36
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 8.5,
-            "alt": 28.89,
-            "az": 111.14
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 9,
-            "alt": 32.85,
-            "az": 118.34
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 9.5,
-            "alt": 36.54,
-            "az": 126.06
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 10,
-            "alt": 39.87,
-            "az": 134.38
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 10.5,
-            "alt": 42.73,
-            "az": 143.38
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 11,
-            "alt": 45.03,
-            "az": 153.05
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 11.5,
-            "alt": 46.65,
-            "az": 163.33
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 12,
-            "alt": 47.5,
-            "az": 174.04
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 12.5,
-            "alt": 47.53,
-            "az": 184.91
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 13,
-            "alt": 46.74,
-            "az": 195.65
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 13.5,
-            "alt": 45.18,
-            "az": 205.97
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 14,
-            "alt": 42.94,
-            "az": 215.7
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 14.5,
-            "alt": 40.11,
-            "az": 224.75
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 15,
-            "alt": 36.81,
-            "az": 233.12
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 15.5,
-            "alt": 33.14,
-            "az": 240.89
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 16,
-            "alt": 29.19,
-            "az": 248.12
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 16.5,
-            "alt": 25.05,
-            "az": 254.93
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 17,
-            "alt": 20.77,
-            "az": 261.4
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 17.5,
-            "alt": 16.42,
-            "az": 267.64
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 18,
-            "alt": 12.05,
-            "az": 273.72
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 18.5,
-            "alt": 7.7,
-            "az": 279.73
-          },
-          {
-            "month": 8,
-            "day": 21,
-            "hour_utc": 19,
-            "alt": 3.44,
-            "az": 285.73
-          }
-        ]
-      },
-      {
-        "month": 9,
-        "n": 24,
-        "samples": [
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 6.5,
-            "alt": 3.98,
-            "az": 94.4
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 7,
-            "alt": 8.3,
-            "az": 100.57
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 7.5,
-            "alt": 12.53,
-            "az": 106.87
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 8,
-            "alt": 16.63,
-            "az": 113.36
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 8.5,
-            "alt": 20.52,
-            "az": 120.13
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 9,
-            "alt": 24.15,
-            "az": 127.23
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 9.5,
-            "alt": 27.44,
-            "az": 134.72
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 10,
-            "alt": 30.31,
-            "az": 142.64
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 10.5,
-            "alt": 32.7,
-            "az": 150.98
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 11,
-            "alt": 34.51,
-            "az": 159.72
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 11.5,
-            "alt": 35.69,
-            "az": 168.78
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 12,
-            "alt": 36.18,
-            "az": 178.03
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 12.5,
-            "alt": 35.97,
-            "az": 187.31
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 13,
-            "alt": 35.06,
-            "az": 196.46
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 13.5,
-            "alt": 33.5,
-            "az": 205.35
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 14,
-            "alt": 31.33,
-            "az": 213.86
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 14.5,
-            "alt": 28.64,
-            "az": 221.94
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 15,
-            "alt": 25.5,
-            "az": 229.6
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 15.5,
-            "alt": 22,
-            "az": 236.85
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 16,
-            "alt": 18.2,
-            "az": 243.74
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 16.5,
-            "alt": 14.17,
-            "az": 250.33
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 17,
-            "alt": 9.98,
-            "az": 256.69
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 17.5,
-            "alt": 5.67,
-            "az": 262.9
-          },
-          {
-            "month": 9,
-            "day": 21,
-            "hour_utc": 18,
-            "alt": 1.31,
-            "az": 269.01
-          }
-        ]
-      },
-      {
-        "month": 10,
-        "n": 19,
-        "samples": [
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 7.5,
-            "alt": 4.15,
-            "az": 114.95
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 8,
-            "alt": 7.99,
-            "az": 121.27
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 8.5,
-            "alt": 11.58,
-            "az": 127.8
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 9,
-            "alt": 14.86,
-            "az": 134.58
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 9.5,
-            "alt": 17.77,
-            "az": 141.64
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 10,
-            "alt": 20.25,
-            "az": 148.98
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 10.5,
-            "alt": 22.24,
-            "az": 156.59
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 11,
-            "alt": 23.69,
-            "az": 164.44
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 11.5,
-            "alt": 24.55,
-            "az": 172.46
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 12,
-            "alt": 24.81,
-            "az": 180.56
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 12.5,
-            "alt": 24.45,
-            "az": 188.66
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 13,
-            "alt": 23.49,
-            "az": 196.66
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 13.5,
-            "alt": 21.95,
-            "az": 204.47
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 14,
-            "alt": 19.87,
-            "az": 212.04
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 14.5,
-            "alt": 17.32,
-            "az": 219.33
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 15,
-            "alt": 14.34,
-            "az": 226.34
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 15.5,
-            "alt": 11.01,
-            "az": 233.07
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 16,
-            "alt": 7.37,
-            "az": 239.56
-          },
-          {
-            "month": 10,
-            "day": 21,
-            "hour_utc": 16.5,
-            "alt": 3.48,
-            "az": 245.84
-          }
-        ]
-      },
-      {
-        "month": 11,
-        "n": 15,
-        "samples": [
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 8.5,
-            "alt": 3.31,
-            "az": 131.86
-          },
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 9,
-            "alt": 6.39,
-            "az": 138.22
-          },
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 9.5,
-            "alt": 9.1,
-            "az": 144.79
-          },
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 10,
-            "alt": 11.4,
-            "az": 151.56
-          },
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 10.5,
-            "alt": 13.24,
-            "az": 158.52
-          },
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 11,
-            "alt": 14.57,
-            "az": 165.65
-          },
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 11.5,
-            "alt": 15.38,
-            "az": 172.9
-          },
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 12,
-            "alt": 15.64,
-            "az": 180.21
-          },
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 12.5,
-            "alt": 15.34,
-            "az": 187.51
-          },
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 13,
-            "alt": 14.49,
-            "az": 194.75
-          },
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 13.5,
-            "alt": 13.12,
-            "az": 201.87
-          },
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 14,
-            "alt": 11.24,
-            "az": 208.82
-          },
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 14.5,
-            "alt": 8.91,
-            "az": 215.57
-          },
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 15,
-            "alt": 6.17,
-            "az": 222.12
-          },
-          {
-            "month": 11,
-            "day": 21,
-            "hour_utc": 15.5,
-            "alt": 3.06,
-            "az": 228.47
-          }
-        ]
-      },
-      {
-        "month": 12,
-        "n": 14,
-        "samples": [
-          {
-            "month": 12,
-            "day": 21,
-            "hour_utc": 9,
-            "alt": 2.03,
-            "az": 137.13
-          },
-          {
-            "month": 12,
-            "day": 21,
-            "hour_utc": 9.5,
-            "alt": 4.82,
-            "az": 143.42
-          },
-          {
-            "month": 12,
-            "day": 21,
-            "hour_utc": 10,
-            "alt": 7.22,
-            "az": 149.91
-          },
-          {
-            "month": 12,
-            "day": 21,
-            "hour_utc": 10.5,
-            "alt": 9.18,
-            "az": 156.57
-          },
-          {
-            "month": 12,
-            "day": 21,
-            "hour_utc": 11,
-            "alt": 10.68,
-            "az": 163.38
-          },
-          {
-            "month": 12,
-            "day": 21,
-            "hour_utc": 11.5,
-            "alt": 11.67,
-            "az": 170.32
-          },
-          {
-            "month": 12,
-            "day": 21,
-            "hour_utc": 12,
-            "alt": 12.14,
-            "az": 177.33
-          },
-          {
-            "month": 12,
-            "day": 21,
-            "hour_utc": 12.5,
-            "alt": 12.07,
-            "az": 184.37
-          },
-          {
-            "month": 12,
-            "day": 21,
-            "hour_utc": 13,
-            "alt": 11.48,
-            "az": 191.37
-          },
-          {
-            "month": 12,
-            "day": 21,
-            "hour_utc": 13.5,
-            "alt": 10.36,
-            "az": 198.28
-          },
-          {
-            "month": 12,
-            "day": 21,
-            "hour_utc": 14,
-            "alt": 8.75,
-            "az": 205.06
-          },
-          {
-            "month": 12,
-            "day": 21,
-            "hour_utc": 14.5,
-            "alt": 6.67,
-            "az": 211.68
-          },
-          {
-            "month": 12,
-            "day": 21,
-            "hour_utc": 15,
-            "alt": 4.17,
-            "az": 218.12
-          },
-          {
-            "month": 12,
-            "day": 21,
-            "hour_utc": 15.5,
-            "alt": 1.3,
-            "az": 224.37
-          }
-        ]
-      }
-    ]
+ "schemaVersion": 2,
+ "generatedFrom": [
+  {
+   "path": "infrastructure/integrated-energy/layout/search/results.json",
+   "sha256": "cb3d91d85bd15c2a95f616f94b8f6840fbe7635c22ed3a052b964228d7fe3c0f",
+   "generatedBy": "fairfield-energy layout-search"
   }
+ ],
+ "site": {
+  "name": "Fairfield House",
+  "place": "Eskdale Green, Cumbria",
+  "crs": "EPSG:27700",
+  "origin": {
+   "easting": 314083.66,
+   "northing": 500058.46,
+   "elevationAod": 48.0
+  },
+  "location": {
+   "latitude": 54.388743,
+   "longitude": -3.324563
+  }
+ },
+ "design": {
+  "revision": "2026-10-31",
+  "status": "design of record, planning simulation",
+  "panelCount": 18,
+  "panelModel": "JA Solar JAM72D40-605/MB",
+  "modulePowerW": 605,
+  "capacityKwp": 10.89,
+  "orientation": "portrait",
+  "tiltDegrees": 25.0,
+  "rows": 4,
+  "rowPitchM": 3.0,
+  "azimuthTrueDeg": 178.92,
+  "annualGenerationKwh": 8928,
+  "novFebKwh": 850,
+  "specificYieldKwhPerKwp": 820,
+  "maxTopAboveGroundM": 2.26,
+  "weather": "PVGIS 5.3 SARAH3, 2019-2020 hourly"
+ },
+ "monthly": [
+  {
+   "month": 1,
+   "generationKwh": 170
+  },
+  {
+   "month": 2,
+   "generationKwh": 334
+  },
+  {
+   "month": 3,
+   "generationKwh": 631
+  },
+  {
+   "month": 4,
+   "generationKwh": 1256
+  },
+  {
+   "month": 5,
+   "generationKwh": 1505
+  },
+  {
+   "month": 6,
+   "generationKwh": 1287
+  },
+  {
+   "month": 7,
+   "generationKwh": 1171
+  },
+  {
+   "month": 8,
+   "generationKwh": 1066
+  },
+  {
+   "month": 9,
+   "generationKwh": 721
+  },
+  {
+   "month": 10,
+   "generationKwh": 440
+  },
+  {
+   "month": 11,
+   "generationKwh": 207
+  },
+  {
+   "month": 12,
+   "generationKwh": 139
+  }
+ ],
+ "panels": {
+  "FS-module-01": {
+   "moduleId": 1,
+   "row": 1,
+   "col": 1,
+   "bngEasting": 314081.29,
+   "bngNorthing": 500055.46,
+   "elevationAod": 47.36,
+   "annualKwh": 560.6,
+   "novFebKwh": 61.5,
+   "monthlyKwh": [
+    12.6,
+    23.7,
+    43.2,
+    79.6,
+    89.1,
+    75.0,
+    68.6,
+    64.0,
+    49.4,
+    30.2,
+    14.9,
+    10.3
+   ],
+   "topAboveGroundM": 1.64
+  },
+  "FS-module-02": {
+   "moduleId": 2,
+   "row": 1,
+   "col": 2,
+   "bngEasting": 314082.55,
+   "bngNorthing": 500055.46,
+   "elevationAod": 47.23,
+   "annualKwh": 559.0,
+   "novFebKwh": 59.9,
+   "monthlyKwh": [
+    11.8,
+    23.4,
+    43.2,
+    79.5,
+    89.1,
+    75.0,
+    68.6,
+    64.0,
+    49.4,
+    30.3,
+    14.9,
+    9.8
+   ],
+   "topAboveGroundM": 1.5
+  },
+  "FS-module-03": {
+   "moduleId": 3,
+   "row": 2,
+   "col": 8,
+   "bngEasting": 314090.07,
+   "bngNorthing": 500058.46,
+   "elevationAod": 47.96,
+   "annualKwh": 557.7,
+   "novFebKwh": 61.3,
+   "monthlyKwh": [
+    12.3,
+    23.5,
+    42.0,
+    79.3,
+    89.1,
+    75.0,
+    68.6,
+    63.9,
+    48.7,
+    29.8,
+    14.9,
+    10.6
+   ],
+   "topAboveGroundM": 1.55
+  },
+  "FS-module-04": {
+   "moduleId": 4,
+   "row": 2,
+   "col": 9,
+   "bngEasting": 314091.33,
+   "bngNorthing": 500058.46,
+   "elevationAod": 48.11,
+   "annualKwh": 555.8,
+   "novFebKwh": 59.6,
+   "monthlyKwh": [
+    11.6,
+    22.7,
+    41.7,
+    79.5,
+    89.1,
+    75.0,
+    68.6,
+    64.0,
+    48.2,
+    30.1,
+    14.9,
+    10.4
+   ],
+   "topAboveGroundM": 1.59
+  },
+  "FS-module-05": {
+   "moduleId": 5,
+   "row": 2,
+   "col": 10,
+   "bngEasting": 314092.58,
+   "bngNorthing": 500058.46,
+   "elevationAod": 48.26,
+   "annualKwh": 555.0,
+   "novFebKwh": 59.2,
+   "monthlyKwh": [
+    11.3,
+    22.9,
+    41.7,
+    79.3,
+    89.0,
+    75.0,
+    68.6,
+    63.9,
+    48.1,
+    30.2,
+    15.0,
+    10.1
+   ],
+   "topAboveGroundM": 1.6
+  },
+  "FS-module-06": {
+   "moduleId": 6,
+   "row": 3,
+   "col": 10,
+   "bngEasting": 314092.58,
+   "bngNorthing": 500061.46,
+   "elevationAod": 48.28,
+   "annualKwh": 407.8,
+   "novFebKwh": 28.2,
+   "monthlyKwh": [
+    6.0,
+    10.9,
+    23.0,
+    62.0,
+    74.3,
+    64.7,
+    60.0,
+    54.7,
+    25.3,
+    15.5,
+    6.8,
+    4.4
+   ],
+   "topAboveGroundM": 1.59
+  },
+  "FS-module-07": {
+   "moduleId": 7,
+   "row": 3,
+   "col": 11,
+   "bngEasting": 314093.83,
+   "bngNorthing": 500061.46,
+   "elevationAod": 48.43,
+   "annualKwh": 525.6,
+   "novFebKwh": 50.2,
+   "monthlyKwh": [
+    9.6,
+    21.4,
+    37.5,
+    76.2,
+    86.8,
+    72.8,
+    67.4,
+    62.8,
+    45.3,
+    26.6,
+    11.8,
+    7.3
+   ],
+   "topAboveGroundM": 1.59
+  },
+  "FS-module-08": {
+   "moduleId": 8,
+   "row": 3,
+   "col": 12,
+   "bngEasting": 314095.09,
+   "bngNorthing": 500061.46,
+   "elevationAod": 48.62,
+   "annualKwh": 520.7,
+   "novFebKwh": 51.4,
+   "monthlyKwh": [
+    9.6,
+    20.8,
+    40.3,
+    75.6,
+    83.1,
+    70.5,
+    64.3,
+    61.0,
+    47.3,
+    27.2,
+    12.5,
+    8.5
+   ],
+   "topAboveGroundM": 1.63
+  },
+  "FS-module-09": {
+   "moduleId": 9,
+   "row": 3,
+   "col": 13,
+   "bngEasting": 314096.34,
+   "bngNorthing": 500061.46,
+   "elevationAod": 48.83,
+   "annualKwh": 512.2,
+   "novFebKwh": 54.6,
+   "monthlyKwh": [
+    11.1,
+    20.4,
+    38.3,
+    71.7,
+    81.3,
+    70.5,
+    64.2,
+    58.6,
+    45.1,
+    27.8,
+    13.4,
+    9.6
+   ],
+   "topAboveGroundM": 1.65
+  },
+  "FS-module-10": {
+   "moduleId": 10,
+   "row": 3,
+   "col": 14,
+   "bngEasting": 314097.6,
+   "bngNorthing": 500061.46,
+   "elevationAod": 49.13,
+   "annualKwh": 546.9,
+   "novFebKwh": 57.1,
+   "monthlyKwh": [
+    11.4,
+    22.3,
+    41.6,
+    78.4,
+    86.8,
+    74.4,
+    67.0,
+    63.3,
+    49.0,
+    29.4,
+    13.6,
+    9.7
+   ],
+   "topAboveGroundM": 1.72
+  },
+  "FS-module-11": {
+   "moduleId": 11,
+   "row": 3,
+   "col": 15,
+   "bngEasting": 314098.85,
+   "bngNorthing": 500061.46,
+   "elevationAod": 49.53,
+   "annualKwh": 550.2,
+   "novFebKwh": 56.2,
+   "monthlyKwh": [
+    10.9,
+    22.6,
+    42.1,
+    79.7,
+    88.8,
+    74.4,
+    67.9,
+    63.7,
+    48.5,
+    28.9,
+    13.4,
+    9.3
+   ],
+   "topAboveGroundM": 1.87
+  },
+  "FS-module-12": {
+   "moduleId": 12,
+   "row": 3,
+   "col": 16,
+   "bngEasting": 314100.1,
+   "bngNorthing": 500061.46,
+   "elevationAod": 50.25,
+   "annualKwh": 555.3,
+   "novFebKwh": 57.6,
+   "monthlyKwh": [
+    10.9,
+    23.4,
+    43.0,
+    79.7,
+    88.8,
+    75.0,
+    68.5,
+    63.9,
+    49.5,
+    29.4,
+    14.1,
+    9.1
+   ],
+   "topAboveGroundM": 2.26
+  },
+  "FS-module-13": {
+   "moduleId": 13,
+   "row": 3,
+   "col": 17,
+   "bngEasting": 314101.36,
+   "bngNorthing": 500061.46,
+   "elevationAod": 50.65,
+   "annualKwh": 555.6,
+   "novFebKwh": 56.5,
+   "monthlyKwh": [
+    11.3,
+    22.9,
+    43.2,
+    79.8,
+    89.3,
+    75.0,
+    68.6,
+    64.0,
+    49.5,
+    29.6,
+    13.7,
+    8.6
+   ],
+   "topAboveGroundM": 2.26
+  },
+  "FS-module-14": {
+   "moduleId": 14,
+   "row": 4,
+   "col": 12,
+   "bngEasting": 314095.09,
+   "bngNorthing": 500064.46,
+   "elevationAod": 48.7,
+   "annualKwh": 436.0,
+   "novFebKwh": 28.5,
+   "monthlyKwh": [
+    6.1,
+    11.0,
+    23.2,
+    72.1,
+    81.1,
+    67.8,
+    61.8,
+    58.6,
+    27.2,
+    15.7,
+    6.9,
+    4.4
+   ],
+   "topAboveGroundM": 1.62
+  },
+  "FS-module-15": {
+   "moduleId": 15,
+   "row": 4,
+   "col": 13,
+   "bngEasting": 314096.34,
+   "bngNorthing": 500064.46,
+   "elevationAod": 48.84,
+   "annualKwh": 407.2,
+   "novFebKwh": 28.1,
+   "monthlyKwh": [
+    6.0,
+    10.9,
+    22.6,
+    62.3,
+    75.6,
+    64.6,
+    58.6,
+    55.4,
+    24.7,
+    15.5,
+    6.8,
+    4.4
+   ],
+   "topAboveGroundM": 1.59
+  },
+  "FS-module-16": {
+   "moduleId": 16,
+   "row": 4,
+   "col": 14,
+   "bngEasting": 314097.6,
+   "bngNorthing": 500064.46,
+   "elevationAod": 49.0,
+   "annualKwh": 399.6,
+   "novFebKwh": 27.5,
+   "monthlyKwh": [
+    5.9,
+    10.6,
+    22.1,
+    51.0,
+    79.5,
+    66.9,
+    60.7,
+    54.0,
+    22.8,
+    15.1,
+    6.7,
+    4.3
+   ],
+   "topAboveGroundM": 1.63
+  },
+  "FS-module-17": {
+   "moduleId": 17,
+   "row": 4,
+   "col": 15,
+   "bngEasting": 314098.85,
+   "bngNorthing": 500064.46,
+   "elevationAod": 49.3,
+   "annualKwh": 390.7,
+   "novFebKwh": 27.0,
+   "monthlyKwh": [
+    5.8,
+    10.4,
+    21.7,
+    40.5,
+    82.6,
+    68.4,
+    62.4,
+    50.8,
+    22.5,
+    14.9,
+    6.6,
+    4.2
+   ],
+   "topAboveGroundM": 1.76
+  },
+  "FS-module-18": {
+   "moduleId": 18,
+   "row": 4,
+   "col": 16,
+   "bngEasting": 314100.1,
+   "bngNorthing": 500064.46,
+   "elevationAod": 49.67,
+   "annualKwh": 332.2,
+   "novFebKwh": 25.3,
+   "monthlyKwh": [
+    5.4,
+    9.8,
+    20.3,
+    29.9,
+    62.2,
+    67.7,
+    56.7,
+    35.7,
+    20.7,
+    13.9,
+    6.1,
+    3.9
+   ],
+   "topAboveGroundM": 1.94
+  }
+ }
 }
